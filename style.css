@@ -10,11 +10,18 @@ body{
 a{
 	text-decoration: none;
 	color:black;
+	transition: 0.5s;
+	font-size:20px;
+}
+
+.navbar div{
+	margin-right:50px;
 }
 
 a:hover{
 	color:#4cace4;
-	border-bottom:solid 2px #4cace4;
+	display:inline-block;
+	transform: scale(1.1,1.1);
 }
 
 .navbar{
@@ -34,4 +41,24 @@ a:hover{
 .navbar .logo img{
 	width:130px;
 	height:80px;
+}
+
+.aboutus h1{
+	font-family: 'Lobster', cursive;
+}
+
+.aboutus h2{
+	font-family: 'Alegraya Sans', sans-serif;
+	font-weight: bold;
+}
+
+.seeall {
+	color:#4cace4;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.seeall:hover{
+	color:#4cace4;
+	transform: scale(1.1);
 }
