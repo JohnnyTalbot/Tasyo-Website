@@ -5,12 +5,12 @@ body{
 
 a{
 	text-decoration: none;
-	color:black;
+	color:white;
 	transition: 0.5s;
 }
 
 a:hover{
-	color:#4cace4;
+	color:#1c4464;
 	display:inline-block;
 	transform: scale(1.1,1.1);
 }
@@ -26,7 +26,7 @@ a:hover{
 .navbar{
 	position:relative;
 	font-size:25px;
-	background: white;
+	background: #4cace4;
 }
 
 .navbar div{
@@ -47,7 +47,7 @@ a:hover{
 	  padding: 140px 0px 160px 0px;
   width: 100%;
   margin: auto;
-  background-color: white;
+  background-color: #4cace4;
   position: relative;
   
 }
@@ -60,13 +60,13 @@ a:hover{
   font-size: 80px;
   letter-spacing: 0.05em;
   display: inline-block;
-  color: #4cace4;
+  color: white;
   text-align: center;
 }
 
 .aboutus h2{
 	font-family: 'Lobster', sans-serif;
-	color: #4cace4;
+	color: white;
   font-size: 24px;
   margin: auto;
   font-weight: 500;
