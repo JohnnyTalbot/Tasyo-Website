@@ -19,13 +19,14 @@ a:hover{
 	margin-right:50px;
 }
 
-
+.navwords {
+	transform: translate(-10px, -20px);
+}
 
 .navbar{
 	position:relative;
 	font-size:25px;
 	background: white;
-	padding-bottom: 20px;
 }
 
 .navbar div{
