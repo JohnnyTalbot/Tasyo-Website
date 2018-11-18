@@ -1,15 +1,20 @@
 
 body{
-	margin:20px;
+	margin:0px;
 }
 
 a{
 	text-decoration: none;
 	color:white;
-	transition: 0.5s;
 }
 
-a:hover{
+.navbar a{
+  text-decoration: none;
+  color:white;
+  transition: 0.5s;
+}
+
+.navbar a:hover{
 	color:#1c4464;
 	display:inline-block;
 	transform: scale(1.1,1.1);
@@ -26,7 +31,7 @@ a:hover{
 .navbar{
 	position:relative;
 	font-size:25px;
-	background: #4cace4;
+	background: #44ace4;
 }
 
 .navbar div{
@@ -44,7 +49,7 @@ a:hover{
 }
 
 .aboutus {
-	  padding: 140px 0px 160px 0px;
+	padding: 140px 0px 160px 0px;
   width: 100%;
   margin: auto;
   background-color: #4cace4;
@@ -83,15 +88,6 @@ a:hover{
 .seeall:hover{
 	color:#e4ac8c;
 	transform: scale(1.1);
-}
-
-.socialmedia{
-	text-align: center;
-}
-
-.socialmedia .icon{
-	font-size:100px;
-	margin:0px 40px;
 }
 
 .audiosection {
@@ -168,3 +164,82 @@ a:hover{
   margin-bottom: 16px;
   line-height: 180% !important;
 }
+
+footer a{
+  color:black;
+}
+
+footer a:hover{
+  color: #1c4464;
+}
+
+footer{
+  position: relative;
+}
+
+footer ul li{
+  color:#222;
+  font-size:13px;
+  list-style-type: none;
+  margin:0;
+  margin-bottom: 10px;
+}
+
+footer ul li a{
+  color:#222;
+}
+
+.desc{
+  margin-bottom:13px;
+  font-size:15px;
+}
+
+.item img{
+  width:130px;
+  height:80px;
+}
+
+.item{
+  align-self: center;
+}
+
+.upper{
+  background-color: #white;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  justify-items: center;
+  grid-row-gap: 1em;
+}
+
+.upper .grid-item{
+  height:100%;
+  width: 100%;
+}
+
+.disclaimer{
+  text-align: center;
+  font-size:11px;
+}
+
+.lower{
+  background-color: #ccc;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.lower .contact{
+  grid-column: 2/3;
+}
+
+.lower .container{
+  font-size: 20px;
+  margin:7px 0;
+  justify-self:end;
+  grid-column: 3/4;
+}
+
+.lower .icon{
+  margin:0 5px;
+}
+
