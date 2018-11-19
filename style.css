@@ -79,13 +79,13 @@ a{
   text-align: center;
 }
 
-.seeall {
+.seeallbutton {
 	color:#7c644c;
 	cursor: pointer;
 	transition: 0.5s;
 }
 
-.seeall:hover{
+.seeallbutton:hover{
 	color:#e4ac8c;
 	transform: scale(1.1);
 }
