@@ -39,15 +39,48 @@ a{
 	display:inline-block;
 }
 
-.navbar .logo{
-
-}
 
 .navbar .logo img{
 	width:130px;
 	height:80px;
 }
 
+.navbar2 a{
+  text-decoration: none;
+  color:white;
+  transition: 0.5s;
+}
+
+.navbar2 a:hover{
+	color:#1c4464;
+	display:inline-block;
+	transform: scale(1.1,1.1);
+}
+
+.navbar2 div{
+	margin-right:50px;
+}
+
+.navwords2 {
+	transform: translate(-10px, -20px);
+}
+
+.navbar2{
+	position:relative;
+	font-size:25px;
+	background: #fcccd4;
+}
+
+.navbar2 div{
+	margin:0px 35px;
+	display:inline-block;
+}
+
+
+.navbar2 .logo img{
+	width:130px;
+	height:80px;
+}
 .aboutus {
 	padding: 140px 0px 160px 0px;
   width: 100%;
@@ -89,6 +122,8 @@ a{
 	color:#e4ac8c;
 	transform: scale(1.1);
 }
+
+
 
 .audiosection {
 	background: #fcccd4;
