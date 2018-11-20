@@ -45,42 +45,6 @@ a{
 	height:80px;
 }
 
-.navbar2 a{
-  text-decoration: none;
-  color:white;
-  transition: 0.5s;
-}
-
-.navbar2 a:hover{
-	color:#1c4464;
-	display:inline-block;
-	transform: scale(1.1,1.1);
-}
-
-.navbar2 div{
-	margin-right:50px;
-}
-
-.navwords2 {
-	transform: translate(-10px, -20px);
-}
-
-.navbar2{
-	position:relative;
-	font-size:25px;
-	background: #fcccd4;
-}
-
-.navbar2 div{
-	margin:0px 35px;
-	display:inline-block;
-}
-
-
-.navbar2 .logo img{
-	width:130px;
-	height:80px;
-}
 .aboutus {
 	padding: 140px 0px 160px 0px;
   width: 100%;
@@ -217,7 +181,7 @@ footer ul li{
   font-size:20px;
   list-style-type: none;
   margin:0;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 footer ul li a{
@@ -225,7 +189,7 @@ footer ul li a{
 }
 
 .desc{
-  margin-bottom:35px;
+  margin-bottom:75px;
   font-size:25px;
 }
 
@@ -236,7 +200,8 @@ footer ul li a{
   grid-auto-rows: auto;
   justify-items: center;
   grid-row-gap: 1em;
-  margin:70px 0;
+  margin-top:70px;
+  margin-bottom:100px;
 }
 
 .upper .div{
@@ -264,6 +229,8 @@ footer ul li a{
 .item2 .admup{
   height:40px;
   width:40px;
+  margin-right:44px;
+  margin-left:32px;
 }
 
 .item2 .radyo{
