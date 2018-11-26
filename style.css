@@ -10,7 +10,7 @@ a{
 
 .navbar a{
   text-decoration: none;
-  color:white;
+  color:#4cace4;
   transition: 0.5s;
 }
 
@@ -31,7 +31,7 @@ a{
 .navbar{
 	position:relative;
 	font-size:25px;
-	background: #44ace4;
+	background: 
 }
 
 .navbar div{
@@ -49,9 +49,9 @@ a{
 	padding: 140px 0px 160px 0px;
   width: 100%;
   margin: auto;
-  background-color: #4cace4;
+  background-color: ;
   position: relative;
-  
+  background-image: url("music.jpg");
 }
 
 .aboutus h1{
@@ -62,18 +62,18 @@ a{
   font-size: 80px;
   letter-spacing: 0.05em;
   display: inline-block;
-  color: white;
-  text-align: center;
+  color: #4cace4;
+  text-align: right;
 }
 
 .aboutus h2{
 	font-family: 'Lobster', sans-serif;
-	color: white;
+	color: #4cace4;
   font-size: 24px;
   margin: auto;
   font-weight: 500;
   
-  text-align: center;
+  text-align: right;
 }
 
 .seeall {
