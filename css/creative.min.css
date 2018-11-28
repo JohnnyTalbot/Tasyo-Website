@@ -182,11 +182,6 @@ img::-moz-selection{
   margin-bottom:0px;
 }
 
-.upper .div{
-  height:100%;
-  width: 100%;
-}
-
 .upper img{
   margin-right: 15px;
 }
@@ -194,7 +189,7 @@ img::-moz-selection{
 .upper .item1{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   justify-items:center;
   align-items: center;
 }
@@ -210,10 +205,19 @@ footer hr{
 }
 
 .item1 .donate div{
-  padding:15px 0;
+  padding: 15px 0;
+}
+
+.upper .item1{
+  padding-bottom: 70px;
+  height:100%;
+  width:100%;
 }
 
 .upper .item2{
+  padding-top: 70px;
+  height:100%;
+  width:100%;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
@@ -234,18 +238,6 @@ li{
 .item1 img{
   height:45px;
   width: 45px;
-}
-
-.item2 .sponsor1{
-  justify-self:center;
-}
-
-.item2 .sponsor2{
-  justify-self:start;
-}
-
-.item2 .sponsor3{
-  justify-self:end;
 }
 
 .item2 .admup{
